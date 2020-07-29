@@ -4,6 +4,7 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
+import CarouselLarge from '../../components/CarouselLarge';
 
 
 function Home() {
@@ -14,12 +15,15 @@ function Home() {
       <BannerMain 
         videoTitle = {dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
+        
         videoDescription = {"O que é Front-end?"}
       
       />
 
-      <Carousel
+
+      <CarouselLarge
         category={dadosIniciais.categorias[0]}
+        
       />
 
       <Carousel

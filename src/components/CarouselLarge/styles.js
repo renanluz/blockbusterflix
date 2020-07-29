@@ -27,7 +27,7 @@ export const ExtraLink = styled.a`
     opacity: .5;
   }
   @media (max-width: 800px) {
-    display: block;
+    display: flex;
     margin-bottom: 16px;
     margin-left: 0;
   }
@@ -42,12 +42,13 @@ export const VideoCardList = styled.ul`
   overflow-x: auto;
   flex-direction: row;
   
+  
   li {
     margin-right: 16px;
   }
 `;
 
-export const VideoCardGroupContainer = styled.section`
+export const VideoCardGroupContainerLarge = styled.section`
   color: white;
   min-height: 197px;
   margin-left: 5%;
