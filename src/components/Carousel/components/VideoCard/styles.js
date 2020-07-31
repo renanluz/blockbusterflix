@@ -5,17 +5,17 @@ export const VideoCardContainer = styled.a`
   overflow: hidden;
   cursor: pointer;
   color: white;
-  flex: 0 0 298px;
-  width: 378px;
-  height: 212px;
+  flex: 0 0 231px;
+  width: 231px;
+  height: 130px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
-  border-radius: 15px;
+  border-radius: 2px;
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 16px;
+  padding: 1px;
 
   transition: opacity .3s;
   &:hover,
