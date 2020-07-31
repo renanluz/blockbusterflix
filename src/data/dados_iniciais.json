@@ -1,38 +1,112 @@
 {
   "categorias": [
     {
-      "titulo": "News",
+      "titulo": "Maiores Bilheterias da História",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#000000",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Maiores Bilheterias da História",
+        "url": "https://www.omelete.com.br/marvel-cinema/vingadores-ultimato-endgame/vingadores-ultimato-10-maiores-bilheterias-da-historia#4"
       },
       "videos": [
         {
-          "titulo": "SEE",
-          "url": "https://www.youtube.com/watch?v=7Rg0y7NT1gU"
+          "titulo": "Vingadores: Ultimato",
+          "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
         },
         {
-          "titulo": "The Morning Show",
-          "url": "https://www.youtube.com/watch?v=eA7D4_qU9jo"
+          "titulo": "Avatar",
+          "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
         },
         {
-          "titulo": "MasterClass Ron Finley",
-          "url": "https://www.youtube.com/watch?v=jdISPtllh1U"
+          "titulo": "Titanic",
+          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
         },
         {
-          "titulo": "The Old Guard",
-          "url": "https://www.youtube.com/watch?v=3I3_j00uvqo"
-        }      
+          "titulo": "Star Wars: O despertar da Força",
+          "url": "https://www.youtube.com/watch?v=sGbxmsDFVnE"
+        },    
+        {
+          "titulo": "Vingadores: Guerra Infinita",
+          "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+        },
+        {
+          "titulo": "Jurassic World? O Mundo dos Dinossauros",
+          "url": "https://www.youtube.com/watch?v=RFinNxS5KN4"
+        },
+        {
+          "titulo": "O Rei Leão",
+          "url": "https://www.youtube.com/watch?v=J57HnR6FPW0"
+        },
+        {
+          "titulo": "The Avengers: Os Vingadores",
+          "url": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
+        },
+        {
+          "titulo": "Velozes & Furiosos",
+          "url": "https://www.youtube.com/watch?v=hujU0dw6Erk"
+        },
+        {
+          "titulo": "Frozen 2",
+          "url": "https://www.youtube.com/watch?v=TTIbWKEUPnc"
+        } 
       ]
     },
     {
-      "titulo": "Front End",
+      "titulo": "2020",
+      "cor": "#000000",
+      "link_extra": {
+        "text": "As Maiores Bilheterias dos Anos 2020",
+        "url": "https://cinepop.com.br/as-maiores-bilheterias-dos-anos-90-220985/"
+      },
+      "videos": [
+        {
+          "titulo": "Titanic",
+          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
+        },
+        {
+          "titulo": "Jurassic Park",
+          "url": "https://www.youtube.com/watch?v=QWBKEmWWL38"
+        },
+        {
+          "titulo": "Star Wars: A Ameaça Fantasma",
+          "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
+        },
+        {
+          "titulo": "O Rei Leão",
+          "url": "https://www.youtube.com/watch?v=rHiHRhbTv-Q"
+        },
+        {
+          "titulo": "Independence Day",
+          "url": "https://www.youtube.com/watch?v=kA2WzBi2grE"
+        },
+        {
+          "titulo": "Forrest Gump",
+          "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+        },
+        {
+          "titulo": "O Sexto Sentido",
+          "url": "https://www.youtube.com/watch?v=3-ZP95NF_Wk"
+        },
+        {
+          "titulo": "O Mundo Perdido: Jurassic Park ",
+          "url": "https://www.youtube.com/watch?v=PHTz3jetsVw"
+        },
+        {
+          "titulo": "Homens de Preto",
+          "url": "https://www.youtube.com/watch?v=1R7xBbO89U4"
+        },
+        {
+          "titulo": "Armageddon",
+          "url": "https://www.youtube.com/watch?v=kg_jH47u480"
+        }
+      ]
+    },
+    {
+      "titulo": "2010",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#000000",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "As maiores bilheterias dos anos 2010",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
@@ -71,16 +145,16 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "2000",
       "cor": "#000000",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "As maiores bilheterias dos anos 2000",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Avatar",
+          "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
         },
         {
           "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
@@ -101,50 +175,102 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "1990",
       "cor": "#000000",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "As Maiores Bilheterias dos Anos 90",
+        "url": "https://cinepop.com.br/as-maiores-bilheterias-dos-anos-90-220985/"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Titanic",
+          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Jurassic Park",
+          "url": "https://www.youtube.com/watch?v=QWBKEmWWL38"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Star Wars: A Ameaça Fantasma",
+          "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "O Rei Leão",
+          "url": "https://www.youtube.com/watch?v=rHiHRhbTv-Q"
+        },
+        {
+          "titulo": "Independence Day",
+          "url": "https://www.youtube.com/watch?v=kA2WzBi2grE"
+        },
+        {
+          "titulo": "Forrest Gump",
+          "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+        },
+        {
+          "titulo": "O Sexto Sentido",
+          "url": "https://www.youtube.com/watch?v=3-ZP95NF_Wk"
+        },
+        {
+          "titulo": "O Mundo Perdido: Jurassic Park ",
+          "url": "https://www.youtube.com/watch?v=PHTz3jetsVw"
+        },
+        {
+          "titulo": "Homens de Preto",
+          "url": "https://www.youtube.com/watch?v=1R7xBbO89U4"
+        },
+        {
+          "titulo": "Armageddon",
+          "url": "https://www.youtube.com/watch?v=kg_jH47u480"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "1980",
       "cor": "#000000",
+      "link_extra": {
+        "text": "As Maiores Bilheterias dos Anos 80",
+        "url": "https://cinepop.com.br/as-maiores-bilheterias-dos-anos-80-219775"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "E.T.: O Extraterrestre",
+          "url": "https://www.youtube.com/watch?v=qYAETtIIClk&t=12s"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Star Wars: O Império Contra-Ataca",
+          "url": "https://www.youtube.com/watch?v=Dea4bypvgao"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Star Wars: o Retorno do Jedi",
+          "url": "https://www.youtube.com/watch?v=p4vIFhk621Q"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Indiana Jones e a Ultima Cruzada",
+          "url": "https://www.youtube.com/watch?v=sagmdpkWUqc"
+        },
+        {
+          "titulo": "Batman",
+          "url": "https://www.youtube.com/watch?v=dgC9Q0uhX70"
+        },
+        {
+          "titulo": "Indiana Jones e os Caçadores da Arca Perdida",
+          "url": "https://www.youtube.com/watch?v=Rh_BJXG1-44"
+        },
+        {
+          "titulo": "De volta para o futuro",
+          "url": "https://www.youtube.com/watch?v=qvsgGtivCgs"
+        },
+        {
+          "titulo": "Top Gun",
+          "url": "https://www.youtube.com/watch?v=xa_z57UatDY"
+        },
+        {
+          "titulo": "Rain Main",
+          "url": "https://www.youtube.com/watch?v=mlNwXuHUA8I"
+        },
+        {
+          "titulo": "Indiana Jones Templo da Perdição",
+          "url": "https://www.youtube.com/watch?v=NGsWgHNxK9c"
         }
       ]
     },
