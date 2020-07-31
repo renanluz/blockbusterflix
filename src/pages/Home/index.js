@@ -14,16 +14,12 @@ function Home() {
 
       <BannerMain 
         videoTitle = {dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        
-        videoDescription = {"O que é Front-end?"}
-      
+        url={dadosIniciais.categorias[0].videos[0].url}        
+        videoDescription = {"Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco."}
       />
 
-
       <CarouselLarge
-        category={dadosIniciais.categorias[0]}
-        
+        category={dadosIniciais.categorias[0]}        
       />
 
       <Carousel
@@ -34,21 +30,13 @@ function Home() {
         category={dadosIniciais.categorias[2]}
       />
 
-
       <Carousel
         category={dadosIniciais.categorias[3]}
       />
 
-
       <Carousel
         category={dadosIniciais.categorias[4]}
       />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />
-
-
 
       <Footer/>
     </div>
