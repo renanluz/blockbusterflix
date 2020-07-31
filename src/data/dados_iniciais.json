@@ -15,11 +15,11 @@
         },
         {
           "titulo": "Avatar",
-          "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+          "url": "https://www.youtube.com/watch?v=Qu4PdEaiXKg"
         },
         {
           "titulo": "Titanic",
-          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
+          "url": "https://www.youtube.com/watch?v=b0KYvGa_nN8"
         },
         {
           "titulo": "Star Wars: O despertar da Força",
@@ -51,56 +51,7 @@
         } 
       ]
     },
-    {
-      "titulo": "2020",
-      "cor": "#000000",
-      "link_extra": {
-        "text": "As Maiores Bilheterias dos Anos 2020",
-        "url": "https://cinepop.com.br/as-maiores-bilheterias-dos-anos-90-220985/"
-      },
-      "videos": [
-        {
-          "titulo": "Titanic",
-          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
-        },
-        {
-          "titulo": "Jurassic Park",
-          "url": "https://www.youtube.com/watch?v=QWBKEmWWL38"
-        },
-        {
-          "titulo": "Star Wars: A Ameaça Fantasma",
-          "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
-        },
-        {
-          "titulo": "O Rei Leão",
-          "url": "https://www.youtube.com/watch?v=rHiHRhbTv-Q"
-        },
-        {
-          "titulo": "Independence Day",
-          "url": "https://www.youtube.com/watch?v=kA2WzBi2grE"
-        },
-        {
-          "titulo": "Forrest Gump",
-          "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
-        },
-        {
-          "titulo": "O Sexto Sentido",
-          "url": "https://www.youtube.com/watch?v=3-ZP95NF_Wk"
-        },
-        {
-          "titulo": "O Mundo Perdido: Jurassic Park ",
-          "url": "https://www.youtube.com/watch?v=PHTz3jetsVw"
-        },
-        {
-          "titulo": "Homens de Preto",
-          "url": "https://www.youtube.com/watch?v=1R7xBbO89U4"
-        },
-        {
-          "titulo": "Armageddon",
-          "url": "https://www.youtube.com/watch?v=kg_jH47u480"
-        }
-      ]
-    },
+    
     {
       "titulo": "2010",
       "link": "https://www.alura.com.br/formacao-front-end",
@@ -111,37 +62,45 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Vingadores: Ultimato",
+          "url": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Star Wars: O Despertar da Força",
+          "url": "https://www.youtube.com/watch?v=sGbxmsDFVnE"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Vingadores: Guerra Infinita",
+          "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Jurassic World: O Mundo dos Dinossauros",
+          "url": "https://www.youtube.com/watch?v=RFinNxS5KN4"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "O Rei Leão",
+          "url": "https://www.youtube.com/watch?v=7TavVZMewpY"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Marvel's The Avengers: Os Vingadores",
+          "url": "https://www.youtube.com/watch?v=KeNEGtsCWEk"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Velozes & Furiosos 7",
+          "url": "https://www.youtube.com/watch?v=hujU0dw6Erk"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Frozen 2",
+          "url": "https://www.youtube.com/watch?v=TTIbWKEUPnc"
+        },
+        {
+          "titulo": "Vingadores: Era de Ultron",
+          "url": "https://www.youtube.com/watch?v=lGO6FcnZ0ek"
+        },
+        {
+          "titulo": "Pantera Negra",
+          "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ"
+        }       
       ]
     },
     {
@@ -154,23 +113,43 @@
       "videos": [
         {
           "titulo": "Avatar",
-          "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+          "url": "https://www.youtube.com/watch?v=Qu4PdEaiXKg"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+          "url": "https://www.youtube.com/watch?v=y2rYRu8UW8M"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Piratas do Caribe: O Baú da Morte",
+          "url": "https://www.youtube.com/watch?v=4KFvHrTUqJs"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Batman: O Cavaleiro das Trevas",
+          "url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Harry Potter e a Pedra Filosofal",
+          "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+        },
+        {
+          "titulo": "Piratas do Caribe: No Fim do Mundo",
+          "url": "https://www.youtube.com/watch?v=HKSZtp_OGHY"
+        },
+        {
+          "titulo": "Procurando Nemo",
+          "url": "https://www.youtube.com/watch?v=9oQ628Seb9w"
+        },
+        {
+          "titulo": "Harry Potter e a Ordem da Fênix",
+          "url": "https://www.youtube.com/watch?v=y6ZW7KXaXYk"
+        }, 
+        {
+          "titulo": "Harry Potter e o Enigma do Príncipe",
+          "url": "https://www.youtube.com/watch?v=sg81Lts5kYY"
+        }, 
+        {
+          "titulo": "Shrek 2",
+          "url": "https://www.youtube.com/watch?v=xBgSfhp5Fxo"
         }
       ]
     },
@@ -184,7 +163,7 @@
       "videos": [
         {
           "titulo": "Titanic",
-          "url": "https://www.youtube.com/watch?v=ZQ6klONCq4s"
+          "url": "https://www.youtube.com/watch?v=b0KYvGa_nN8"
         },
         {
           "titulo": "Jurassic Park",
@@ -192,19 +171,19 @@
         },
         {
           "titulo": "Star Wars: A Ameaça Fantasma",
-          "url": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
+          "url": "https://www.youtube.com/watch?v=uMoSnrd7i5c"
         },
         {
           "titulo": "O Rei Leão",
-          "url": "https://www.youtube.com/watch?v=rHiHRhbTv-Q"
+          "url": "https://www.youtube.com/watch?v=eHcZlPpNt0Q"
         },
         {
           "titulo": "Independence Day",
-          "url": "https://www.youtube.com/watch?v=kA2WzBi2grE"
+          "url": "https://www.youtube.com/watch?v=JalTKi0ds2U"
         },
         {
           "titulo": "Forrest Gump",
-          "url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+          "url": "https://www.youtube.com/watch?v=XHhAG-YLdk8"
         },
         {
           "titulo": "O Sexto Sentido",
@@ -212,15 +191,15 @@
         },
         {
           "titulo": "O Mundo Perdido: Jurassic Park ",
-          "url": "https://www.youtube.com/watch?v=PHTz3jetsVw"
+          "url": "https://www.youtube.com/watch?v=E6Xf65X0JB8"
         },
         {
           "titulo": "Homens de Preto",
-          "url": "https://www.youtube.com/watch?v=1R7xBbO89U4"
+          "url": "https://www.youtube.com/watch?v=1Q4mhYF9aQQ"
         },
         {
           "titulo": "Armageddon",
-          "url": "https://www.youtube.com/watch?v=kg_jH47u480"
+          "url": "https://www.youtube.com/watch?v=8-8eEniEfgU"
         }
       ]
     },
