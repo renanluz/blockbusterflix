@@ -1,21 +1,11 @@
 {
     "categorias": [
-      {
-        "id": 1,
-        "titulo": "TOP 10",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "As Maiores Bilheterias da História",
-          "url": "https://www.omelete.com.br/marvel-cinema/vingadores-ultimato-endgame/vingadores-ultimato-10-maiores-bilheterias-da-historia#4"
+        {
+            "id": 1,
+            "nome": "TOP 10",
+            "descricao": "Front End",
+            "cor": "#Cbd1ff"
         }
-      }
-     ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
     ]
-  }
+}
+      
