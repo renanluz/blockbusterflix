@@ -6,16 +6,16 @@ export const VideoCardContainerLarge = styled.a`
     cursor: pointer;
     color: write;
     flex: 0 0 298px;
-    width: 446px;
-    height: 250px;
+    width: 279px;
+    height: 402px;
     background-image: ${({ url }) => `url(${url})`};
     background-size: cover;
     background-position: center;
-    border-radius: 15px;
+    border-radius: 1px;
     position: relative;
     display: flex;
     align-items: flex-end;
-    padding: 16px;
+    padding: 1px;
 
     transition: .3s;
     &:hover,

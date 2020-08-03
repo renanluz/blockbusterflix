@@ -28,7 +28,7 @@ const Container = styled.ul`
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
+  margin-right: 8px;
   img {
     margin: 16px;
     width: 300px;
@@ -37,21 +37,20 @@ export const SliderItem = styled.li`
   }
 `;
 
-
 const SliderLarge = ({ children }) => (
   <Container>
     <SlickSlider {...{
-        dots: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 15000,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
-        adaptiveHeight: true,
-        variableWidth: true,
-        
+      dots: false,
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 8000,
+      autoplaySpeed: 400,
+      cssEase: 'linear',
+      adaptiveHeight: true,
+      variableWidth: true,
+
     }}
     >
       {children}
@@ -59,4 +58,4 @@ const SliderLarge = ({ children }) => (
   </Container>
 );
 
-export default SliderLarge; 
+export default SliderLarge;

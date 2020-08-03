@@ -5,9 +5,9 @@ export const Title = styled.h3`
   font-weight: normal;
   font-size: 20px;
   line-height: 1;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   display: inline-block;
-  padding: 20px;
+  padding: 2px;
   background: black;
   line-height: 1;
   border-radius: 4px;
@@ -20,6 +20,7 @@ export const Title = styled.h3`
 
 export const ExtraLink = styled.a`
   margin-left: 16px;
+  margin-bottom: 16px;
   text-decoration: none;
   transition: opacity .3s;
   &:hover,
