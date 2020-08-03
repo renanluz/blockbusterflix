@@ -1,44 +1,77 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';      
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
 import CarouselLarge from '../../components/CarouselLarge';
+import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
-  return (
-    <div style={{ background: '#141414' }}>
-      <Menu />
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+  const bgUrl = `https://lumiere-a.akamaihd.net/v1/images/ml2_bra_tt_4c_01f_ea97eae0.png`;
 
-      <BannerMain
+  useEffect(() => {
+    // http://localhost:8080/categorias?_embed=videos
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        console.log(categoriasComVideos[0].videos[0]);
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
+  return (
+    <PageDefault paddingAll={0}>
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription={dadosIniciais[0].videos[0].description}
+              />
+              <CarouselLarge
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
+
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+
+      {/* <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco."
+        videoDescription="O que"
       />
-
-      <CarouselLarge
+      <Carousel
+        ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
-
       <Carousel
         category={dadosIniciais.categorias[1]}
       />
-
       <Carousel
         category={dadosIniciais.categorias[2]}
       />
-
       <Carousel
         category={dadosIniciais.categorias[3]}
       />
-
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />
-
-      <Footer />
-    </div>
+      /> */}
+    </PageDefault>
   );
 }
 
