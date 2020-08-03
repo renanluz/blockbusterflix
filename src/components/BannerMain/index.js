@@ -16,7 +16,7 @@ export default function BannerMain({
   url,
 }) {
   const youTubeID = getYouTubeId(url);
-  const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const bgUrl = 'https://a-static.besthdwallpaper.com/thanos-titanio-loucas-papel-de-parede-3440x1440-14267_15.jpg';
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
